@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /tnc.html
+
+Sitemap: https://hiddenvineyard.com/sitemap.xml
