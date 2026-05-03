@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hidden Vineyard — landing site
 
 Static HTML/CSS/JS landing page for Hidden Vineyard, an authentic Dão wine-tour brand.
@@ -75,3 +76,7 @@ Editorial luxury design · trilingual (EN/PT/DE) · Netlify-ready.
 
 - Netlify Forms only resolve on a Netlify deployment. Local file:// preview will let you see the design but the form will not submit.
 - The first-time `hv_lang` cookie write happens after the first explicit user click on a language button. Initial render uses browser detection.
+=======
+# hidden-vineyard
+Authentic high‑end tour through a secret Dao sanctuary
+>>>>>>> origin/main
