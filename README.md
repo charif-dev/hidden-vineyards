@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# Hidden Vineyard — landing site
+
+# Hidden Vineyards — landing site
 
 Static HTML/CSS/JS landing page for Hidden Vineyard, an authentic Dão wine-tour brand.
 Editorial luxury design · trilingual (EN/PT/DE) · Netlify-ready.
@@ -79,4 +79,4 @@ Editorial luxury design · trilingual (EN/PT/DE) · Netlify-ready.
 =======
 # hidden-vineyard
 Authentic high‑end tour through a secret Dao sanctuary
->>>>>>> origin/main
+
