@@ -1,5 +1,5 @@
 /* =============================================================
-   Hidden Vineyard — main.js
+   Hidden Vineyards — main.js
    No dependencies except Swiper (loaded via CDN in <head>).
    ============================================================= */
 
