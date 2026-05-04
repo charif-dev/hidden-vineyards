@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0A0907" />
+
+  <title data-i18n="page_title">Hidden Vineyards — Authentic Dão Wine Tour | </title>
+  <meta name="description" data-i18n-content="page_meta_desc"
+    content="Hidden Vineyards. Intimate, family-cellar wine immersion in the Dão region of Portugal. Maximum 6 guests.  per person." />
+  <meta name="keywords" content="Hidden Vineyards, Dão wine tour, Portugal wine, family winery, terroir, authentic wine experience, vineyard immersion, small group wine" />
+  <meta name="author" content="Hidden Vineyards" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://hiddenvineyard.com/" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" data-i18n-content="page_title" content="Hidden Vineyards — Authentic Dão Wine Tour" />
+  <meta property="og:description" data-i18n-content="page_meta_desc" content="Family-cellar wine immersion in the Dão region. Maximum 6 guests." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1200&q=80&auto=format&fit=crop" />
+  <meta property="og:url" content="https://hiddenvineyard.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230A0907'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='38' font-style='italic' fill='%23C9A24C' text-anchor='middle' font-weight='500'%3EH%3C/text%3E%3Ccircle cx='48' cy='20' r='3' fill='%23C9A24C'/%3E%3C/svg%3E" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet" />
+
+  <!-- Preconnect to Unsplash CDN for image perf -->
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+
+  <!-- Swiper CSS (CDN) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- JSON-LD (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": "Hidden Vineyards — Authentic Dão Wine Tour",
+    "description": "Three-day intimate wine immersion in the Dão region of Portugal. Family cellars, terroir tastings, regional cooking. Maximum 6 guests.",
+    "touristType": "Wine enthusiasts",
+    "offers": {
+      "@type": "Offer",
+      "price": "TBD",
+      "priceCurrency": "",
+      "availability": "https://schema.org/InStock"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Hidden Vineyards",
+      "email": "iamnotdry@hotmail.com",
+      "telephone": "+1-415-845-3957",
+      "areaServed": "Dão, Portugal",
+      "sameAs": [
+        "https://instagram.com/hiddenvineyarddao",
+        "https://facebook.com/hiddenvineyarddao"
+      ]
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ============================================================
+       Cookie banner
+       ============================================================ -->
+  <aside class="cookie" id="cookieBanner" role="dialog" aria-label="Cookie notice">
+    <p data-i18n="cookie_text">We use a single cookie to remember your language preference. No analytics, no tracking, no third-party cookies.</p>
+    <div class="cookie__row">
+      <button class="btn btn--small btn--primary" id="cookieAccept" data-i18n="cookie_accept">Understood</button>
+      <a href="./tnc.html" data-i18n="cookie_link">Read our terms</a>
+    </div>
+  </aside>
+
+  <!-- ============================================================
+       Top bar
+       ============================================================ -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a href="#top" class="brand" aria-label="Hidden Vineyards">
+        <span class="brand__mark"></span>
+        <span>Hidden Vineyards</span>
+        <span class="brand__sub">Dão</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="#about" class="nav__link" data-i18n="nav_about">Our soul</a></li>
+          <li><a href="#included" class="nav__link" data-i18n="nav_included">Included</a></li>
+          <li><a href="#options" class="nav__link" data-i18n="nav_options">À la carte</a></li>
+          <li><a href="#dates" class="nav__link" data-i18n="nav_dates">Calendar</a></li>
+          <li><a href="#faq" class="nav__link" data-i18n="nav_faq">FAQ</a></li>
+          <li><a href="#contact" class="nav__link" data-i18n="nav_contact">Reserve</a></li>
+        </ul>
+        <div class="lang-switcher" role="group" aria-label="Language">
+          <button class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+          <button class="lang-btn" data-lang="pt" aria-pressed="false">PT</button>
+          <button class="lang-btn" data-lang="de" aria-pressed="false">DE</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============================================================
+         Hero (parallax)
+         ============================================================ -->
+    <section class="hero" aria-label="Hidden Vineyards — Dão immersion">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__overline overline reveal" data-i18n="hero_overline">DÃO · PORTUGAL</div>
+        <h1 class="hero__title reveal" data-delay="1">
+          <span data-i18n="hero_title_line1" style="display:inline; margin-left:0; font-style:normal; color:var(--hv-cream);">Hidden</span>
+          <span data-i18n="hero_title_line2">Vineyard</span>
+        </h1>
+        <p class="hero__subtitle reveal" data-delay="2" data-i18n="hero_subtitle">
+          An intimate immersion among the guardians of Dão's soul.
+        </p>
+        <div class="hero__meta reveal" data-delay="3">
+          <div class="hero__price-block">
+            <span class="hero__price-label" data-i18n="hero_price_label">From</span>
+            <span class="hero__price" data-i18n="hero_price"></span>
+            <span class="hero__price-unit" data-i18n="hero_price_unit">per guest</span>
+          </div>
+          <div class="hero__group" data-i18n="hero_group">Up to 6 guests · Fully customized to your group</div>
+        </div>
+        <div class="hero__cta-row reveal" data-delay="4">
+          <a href="#contact" class="btn btn--primary" data-i18n="hero_cta">Reserve your place</a>
+          <a href="#about" class="hero__scroll" data-i18n="hero_scroll">Scroll</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         About
+         ============================================================ -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="reveal reveal--left">
+            <div class="overline" data-i18n="about_overline">OUR STORY</div>
+            <h2 class="about__title" data-i18n="about_title" style="margin-top:1.25rem;">
+              We do not sell wine. We open doors.
+            </h2>
+            <span class="about__rule" aria-hidden="true"></span>
+          </div>
+          <div class="about__text reveal reveal--right" data-delay="1">
+            <p data-i18n="about_p1">Hidden Vineyards was born from a stubborn conviction. Tucked into the granite hills of the Dão, our property is a luxury lodging — six unique units, a quiet pool, vineyards on every horizon.</p>
+            <p data-i18n="about_p2">We walk among small family vineyards, share tables, listen. Our tastings are elevated. The real luxury is suspended time.</p>
+            <p class="about__signature" data-i18n="about_signature">— The Hidden Vineyards team</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         Carousel
+         ============================================================ -->
+    <section class="carousel-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="overline" data-i18n="carousel_overline">GLIMPSES</div>
+          <h2 data-i18n="carousel_title">Spontaneous moments from Dão</h2>
+        </div>
+      </div>
+
+      <div class="swiper reveal" data-delay="1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1685268213146-5b34414ab9d3?w=900&q=80&auto=format&fit=crop"
+                 alt="" data-i18n-alt="carousel_caption_1" loading="lazy" />
+            <div class="swiper-slide__caption" data-i18n="carousel_caption_1">First light on the granite terraces</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1660670996583-3b2c11c8131f?w=900&q=80&auto=format&fit=crop"
+                 alt="" data-i18n-alt="carousel_caption_2" loading="lazy" />
+            <div class="swiper-slide__caption" data-i18n="carousel_caption_2">Old vines, older silence</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1594906025531-25a4e5841289?w=900&q=80&auto=format&fit=crop"
+                 alt="" data-i18n-alt="carousel_caption_3" loading="lazy" />
+            <div class="swiper-slide__caption" data-i18n="carousel_caption_3">A cellar that smells of wood and patience</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1677477242420-44217efa1534?w=900&q=80&auto=format&fit=crop"
+                 alt="" data-i18n-alt="carousel_caption_4" loading="lazy" />
+            <div class="swiper-slide__caption" data-i18n="carousel_caption_4">The hands that prune in February</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1743686627239-e2a25a1d054e?w=900&q=80&auto=format&fit=crop"
+                 alt="" data-i18n-alt="carousel_caption_5" loading="lazy" />
+            <div class="swiper-slide__caption" data-i18n="carousel_caption_5">A family table, unhurried</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1731601816751-fb189dbd807b?w=900&q=80&auto=format&fit=crop"
+                 alt="" data-i18n-alt="carousel_caption_6" loading="lazy" />
+            <div class="swiper-slide__caption" data-i18n="carousel_caption_6">Bottles aged below the kitchen</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1673828384429-30f0872003fb?w=900&q=80&auto=format&fit=crop"
+                 alt="" data-i18n-alt="carousel_caption_7" loading="lazy" />
+            <div class="swiper-slide__caption" data-i18n="carousel_caption_7">Mountain air at 700 meters</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1638664370752-8188076afbab?w=900&q=80&auto=format&fit=crop"
+                 alt="" data-i18n-alt="carousel_caption_8" loading="lazy" />
+            <div class="swiper-slide__caption" data-i18n="carousel_caption_8">Slow-roasted lamb, regional bread</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1693825207674-ae2ef8269be5?w=900&q=80&auto=format&fit=crop"
+                 alt="" data-i18n-alt="carousel_caption_9" loading="lazy" />
+            <div class="swiper-slide__caption" data-i18n="carousel_caption_9">A wine bath, terroir on skin</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1743686622146-c5dddbd0951a?w=900&q=80&auto=format&fit=crop"
+                 alt="" data-i18n-alt="carousel_caption_10" loading="lazy" />
+            <div class="swiper-slide__caption" data-i18n="carousel_caption_10">Dusk over Serra da Estrela</div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         Included
+         ============================================================ -->
+    <section class="included" id="included">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="overline" data-i18n="included_overline">WHAT'S INCLUDED</div>
+          <h2 data-i18n="included_title">Suspended time, wine lovers, small intimate vineyards</h2>
+          <p data-i18n="included_subtitle">Every element below is woven into the fare. No hidden charges between paragraphs.</p>
+        </div>
+
+        <div class="included__grid">
+          <article class="included__card reveal" data-delay="1">
+            <span class="included__num">i.</span>
+            <h4 data-i18n="included_1_title">Luxury vineyard lodging</h4>
+            <p data-i18n="included_1_desc">Six unique units in the heart of the vineyards. A quiet pool. Granite walls that have weathered three centuries.</p>
+          </article>
+          <article class="included__card reveal" data-delay="2">
+            <span class="included__num">ii.</span>
+            <h4 data-i18n="included_2_title">Elevated premium tastings</h4>
+            <p data-i18n="included_2_desc">Verticals across decades, rare flights, library bottles — explored at depth.</p>
+          </article>
+          <article class="included__card reveal" data-delay="3">
+            <span class="included__num">iii.</span>
+            <h4 data-i18n="included_3_title">Small vineyards, personal welcomes</h4>
+            <p data-i18n="included_3_desc">Family-run cellars, none open to the public. You meet the vigneron — not a guide.</p>
+          </article>
+          <article class="included__card reveal" data-delay="4">
+            <span class="included__num">iv.</span>
+            <h4 data-i18n="included_4_title">Private rhythm, all curated</h4>
+            <p data-i18n="included_4_desc">Private transport, all meals, every detail anticipated. Customization runs through everything.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         Options à la carte
+         ============================================================ -->
+    <section class="options" id="options">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="overline" data-i18n="options_overline">À LA CARTE</div>
+          <h2 data-i18n="options_title">If you want to go further</h2>
+          <p data-i18n="options_subtitle">Optional, never pushed.</p>
+        </div>
+
+        <div class="options__grid">
+          <article class="option-card parallax-card reveal reveal--left" data-parallax="0.04">
+            <h4 data-i18n="addon_1_title">Add-on experience [TBD]</h4>
+            <p data-i18n="addon_1_desc">Curated extension to be defined together. Tell us what you'd like.</p>
+            <div class="option-card__price" data-i18n="addon_1_price">Pricing on request</div>
+          </article>
+          <article class="option-card parallax-card reveal reveal--right" data-parallax="0.04">
+            <h4 data-i18n="addon_2_title">Add-on experience [TBD]</h4>
+            <p data-i18n="addon_2_desc">Second extension to be defined together. The space is intentionally open.</p>
+            <div class="option-card__price" data-i18n="addon_2_price">Pricing on request</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         Booking — Form (left) + Sticky dates (right)
+         ============================================================ -->
+    <section class="booking" id="contact">
+      <div class="container">
+        <div class="booking__grid">
+
+          <!-- Form -->
+          <div class="reveal">
+            <div class="section-head" style="margin-bottom: 2.5rem;">
+              <div class="overline" data-i18n="form_overline">TELL US</div>
+              <h2 data-i18n="form_title">Your unique wishes for this group</h2>
+              <p data-i18n="form_subtitle">We design each departure around the people in it.</p>
+            </div>
+
+            <!-- Netlify form: data-netlify + name + hidden form-name + honeypot -->
+            <form class="form" id="bookingForm"
+                  name="hv-booking"
+                  method="POST"
+                  data-netlify="true"
+                  netlify-honeypot="bot-field"
+                  novalidate>
+              <input type="hidden" name="form-name" value="hv-booking" />
+              <p style="display:none;">
+                <label>Don't fill this out: <input name="bot-field" /></label>
+              </p>
+
+              <div class="form__row">
+                <div class="field">
+                  <label for="f-name" data-i18n="form_name">Full name</label>
+                  <input type="text" id="f-name" name="name" required autocomplete="name" />
+                </div>
+                <div class="field">
+                  <label for="f-email" data-i18n="form_email">Email</label>
+                  <input type="email" id="f-email" name="email" required autocomplete="email" />
+                </div>
+              </div>
+
+              <div class="form__row">
+                <div class="field">
+                  <label for="f-phone" data-i18n="form_phone">Phone or WhatsApp (optional)</label>
+                  <input type="tel" id="f-phone" name="phone" autocomplete="tel" />
+                </div>
+                <div class="field">
+                  <label for="f-dates" data-i18n="form_dates">Preferred dates</label>
+                  <input type="text" id="f-dates" name="dates" required
+                         placeholder="e.g. 15–18 June 2026"
+                         data-i18n-placeholder="form_dates_ph" />
+                </div>
+              </div>
+
+              <div class="form__row">
+                <div class="field">
+                  <label for="f-guests" data-i18n="form_guests">Number of guests</label>
+                  <select id="f-guests" name="guests" required>
+                    <option value="" data-i18n="form_guests_select">Choose...</option>
+                    <option value="1" data-i18n="form_guest_1">1 guest</option>
+                    <option value="2" data-i18n="form_guest_2">2 guests</option>
+                    <option value="3" data-i18n="form_guest_3">3 guests</option>
+                    <option value="4" data-i18n="form_guest_4">4 guests</option>
+                    <option value="5" data-i18n="form_guest_5">5 guests</option>
+                    <option value="6" data-i18n="form_guest_6">6 guests</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="f-lang" data-i18n="form_lang">Spoken language</label>
+                  <select id="f-lang" name="lang">
+                    <option value="en" data-i18n="form_lang_en">English</option>
+                    <option value="pt" data-i18n="form_lang_pt">Portuguese</option>
+                    <option value="de" data-i18n="form_lang_de">German</option>
+                    <option value="other" data-i18n="form_lang_other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="f-addons" data-i18n="form_addons">Optional add-ons</label>
+                <select id="f-addons" name="addons">
+                  <option value="none" data-i18n="form_addon_none">None</option>
+                  <option value="spa" data-i18n="form_addon_spa">Vinotherapy bath</option>
+                  <option value="walk" data-i18n="form_addon_walk">Mountain walk</option>
+                  <option value="both" data-i18n="form_addon_both">Both</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="f-wishes" data-i18n="form_wishes">Your unique wishes for this group</label>
+                <textarea id="f-wishes" name="wishes" required
+                  placeholder="Birthday celebration? Specific grape obsession? Dietary needs?"
+                  data-i18n-placeholder="form_wishes_ph"></textarea>
+              </div>
+
+              <div class="field field--checkbox">
+                <input type="checkbox" id="f-consent" name="consent" required />
+                <label for="f-consent" data-i18n="form_consent">I agree to be contacted regarding this enquiry.</label>
+              </div>
+
+              <div class="form__submit">
+                <button type="submit" class="btn btn--primary" data-i18n="form_submit">Send</button>
+                <span class="form__status" id="bookingStatus" role="status" aria-live="polite"></span>
+              </div>
+            </form>
+          </div>
+
+          <!-- Sticky dates panel -->
+          <aside class="dates" id="dates" aria-label="Calendar">
+            <div class="overline" data-i18n="dates_overline" style="margin-bottom:1rem;">CALENDAR</div>
+            <h3 class="dates__title" data-i18n="dates_title">Calendar</h3>
+            <p class="dates__subtitle" data-i18n="dates_subtitle">Each departure, up to 6 guests. Sample calendar — final dates published seasonally.</p>
+
+            <div class="dates__list">
+              <div class="date-item">
+                <div>
+                  <div class="date-item__when">15 — 18 June 2026</div>
+                  <span class="date-item__seats"><strong>4</strong> <span data-i18n="dates_seats_left">places left</span></span>
+                </div>
+                <a href="#contact" class="btn btn--small" data-i18n="dates_book">Reserve</a>
+              </div>
+              <div class="date-item">
+                <div>
+                  <div class="date-item__when">20 — 23 July 2026</div>
+                  <span class="date-item__seats"><strong>2</strong> <span data-i18n="dates_seats_left">places left</span></span>
+                </div>
+                <a href="#contact" class="btn btn--small" data-i18n="dates_book">Reserve</a>
+              </div>
+              <div class="date-item">
+                <div>
+                  <div class="date-item__when">10 — 13 September 2026</div>
+                  <span class="date-item__seats"><strong>6</strong> <span data-i18n="dates_seats_left">places left</span></span>
+                </div>
+                <a href="#contact" class="btn btn--small" data-i18n="dates_book">Reserve</a>
+              </div>
+              <div class="date-item">
+                <div>
+                  <div class="date-item__when">5 — 8 October 2026</div>
+                  <span class="date-item__seats date-item__seats--full" data-i18n="dates_full">Fully booked</span>
+                </div>
+                <span class="btn btn--small" style="opacity:0.4; pointer-events:none;" data-i18n="dates_book">Reserve</span>
+              </div>
+              <div class="date-item">
+                <div>
+                  <div class="date-item__when">12 — 15 November 2026</div>
+                  <span class="date-item__seats"><strong>5</strong> <span data-i18n="dates_seats_left">places left</span></span>
+                </div>
+                <a href="#contact" class="btn btn--small" data-i18n="dates_book">Reserve</a>
+              </div>
+            </div>
+
+            <p class="dates__disclaimer" data-i18n="dates_disclaimer">Sample calendar — illustrative only.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         Testimonials
+         ============================================================ -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="overline" data-i18n="testimonials_overline">VOICES</div>
+          <h2 data-i18n="testimonials_title">What guests have said</h2>
+          <div class="testimonials__disclaimer" data-i18n="testimonials_disclaimer">
+            ⚠ Mock testimonials displayed for design preview.
+          </div>
+        </div>
+
+        <div class="testimonials__grid">
+          <figure class="testimonial reveal" data-delay="1">
+            <blockquote class="testimonial__text" data-i18n="testimonial_1">
+              I came expecting a wine tour. I left having spent three days inside three families.
+            </blockquote>
+            <figcaption>
+              <div class="testimonial__author" data-i18n="testimonial_1_name">Camille R.</div>
+              <div class="testimonial__role" data-i18n="testimonial_1_role">Lyon · mock</div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal" data-delay="2">
+            <blockquote class="testimonial__text" data-i18n="testimonial_2">
+              No bling, no scripted speech. Just real people pouring real wine in real cellars.
+            </blockquote>
+            <figcaption>
+              <div class="testimonial__author" data-i18n="testimonial_2_name">Hanna B.</div>
+              <div class="testimonial__role" data-i18n="testimonial_2_role">Berlin · mock</div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal" data-delay="3">
+            <blockquote class="testimonial__text" data-i18n="testimonial_3">
+              The cooking afternoon alone justified the trip.
+            </blockquote>
+            <figcaption>
+              <div class="testimonial__author" data-i18n="testimonial_3_name">Tomás M.</div>
+              <div class="testimonial__role" data-i18n="testimonial_3_role">Porto · mock</div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FAQ
+         ============================================================ -->
+    <section class="faq" id="faq">
+      <div class="container container--narrow">
+        <div class="section-head reveal">
+          <div class="overline" data-i18n="faq_overline">FAQ</div>
+          <h2 data-i18n="faq_title">Honest answers</h2>
+        </div>
+
+        <div class="faq__list">
+          <div class="faq-item reveal">
+            <button class="faq-item__btn" aria-expanded="false">
+              <span class="faq-item__q" data-i18n="faq_1_q">Why six guests maximum?</span>
+              <span class="faq-item__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner"><p data-i18n="faq_1_a">Because seven changes the dynamic.</p></div>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-item__btn" aria-expanded="false">
+              <span class="faq-item__q" data-i18n="faq_2_q">What if I know nothing about wine?</span>
+              <span class="faq-item__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner"><p data-i18n="faq_2_a">Better, often.</p></div>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-item__btn" aria-expanded="false">
+              <span class="faq-item__q" data-i18n="faq_3_q">Can the tour be customized?</span>
+              <span class="faq-item__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner"><p data-i18n="faq_3_a">Every departure is built around the six people in it.</p></div>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-item__btn" aria-expanded="false">
+              <span class="faq-item__q" data-i18n="faq_4_q">Cancellation policy?</span>
+              <span class="faq-item__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner"><p data-i18n="faq_4_a">Sixty days or more before departure: full refund.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       Footer
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <h4 data-i18n="footer_brand_line">Hidden Vineyards · Dão, Portugal</h4>
+          <p data-i18n="footer_tag">Authentic wine tours, terroir immersion, human connection.</p>
+        </div>
+
+        <div>
+          <div class="footer__col-title" data-i18n="footer_waitlist_title">Waiting list</div>
+          <p style="font-size:0.92rem; color:var(--hv-cream-muted); font-style:italic; margin-bottom:0.75rem; line-height:1.45;"
+             data-i18n="footer_waitlist_subtitle">If our dates don't fit yours, leave us your email.</p>
+
+          <form class="waitlist" id="waitlistForm"
+                name="hv-waitlist" method="POST"
+                data-netlify="true" netlify-honeypot="bot-field" novalidate>
+            <input type="hidden" name="form-name" value="hv-waitlist" />
+            <p style="display:none;"><label>Don't fill: <input name="bot-field" /></label></p>
+            <input type="email" name="email" required
+                   placeholder="your@email.com"
+                   data-i18n-placeholder="footer_waitlist_email_ph" />
+            <textarea name="message"
+                      placeholder="Suggestions? Specific dates in mind?"
+                      data-i18n-placeholder="footer_waitlist_msg_ph"></textarea>
+            <button type="submit" class="btn btn--small btn--primary" data-i18n="footer_waitlist_submit">Join the list</button>
+            <span class="waitlist__status" id="waitlistStatus" role="status" aria-live="polite"></span>
+          </form>
+        </div>
+
+        <div>
+          <div class="footer__col-title" data-i18n="footer_contact_title">Get in touch</div>
+          <ul class="footer__list">
+            <li><a href="mailto:iamnotdry@hotmail.com">iamnotdry@hotmail.com</a></li>
+            <li><a href="tel:+14158453957">+1 (415) 845-3957</a></li>
+          </ul>
+          <div class="footer__col-title" style="margin-top: 2rem;" data-i18n="footer_social_title">Follow</div>
+          <ul class="footer__list">
+            <li><a href="https://instagram.com/hiddenvineyarddao" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://facebook.com/hiddenvineyarddao" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://www.tripadvisor.com/" target="_blank" rel="noopener">TripAdvisor (mock)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer__col-title" data-i18n="footer_legal_title">Legal</div>
+          <ul class="footer__list">
+            <li><a href="./tnc.html" data-i18n="footer_legal_terms">Terms &amp; Conditions</a></li>
+            <li><a href="./tnc.html#privacy" data-i18n="footer_legal_privacy">Privacy</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <span data-i18n="footer_copyright">© 2026 Hidden Vineyards. All rights reserved.</span>
+        <span class="footer__disclaimer" data-i18n="footer_disclaimer">Mock dates and mock testimonials shown for design preview only.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="./js/i18n.js" defer></script>
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
